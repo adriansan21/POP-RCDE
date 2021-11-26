@@ -1,0 +1,81 @@
+#fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: white;
+}
+
+.cabeza {
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+  background-color: #bd8671;
+  height: 300px;
+  width: 300px;
+  border-radius: 20%;
+}
+
+
+.peloizquierda {
+  position: relative;
+  background-color: #302b27;
+  height: 150px;
+  width: 30px;
+  left: 0px;
+  border-top-left-radius: 20px;
+}
+
+.peloderecha {
+  position: absolute;
+  background-color: #302b27;
+  height: 150px;
+  width: 30px;
+  right: 0px;
+  top: 0px;
+  border-top-right-radius: 20px;
+}
+
+.peloarriba {
+  position: absolute;
+  background-color: #302b27;
+  height: 30px;
+  width: 250px;
+  right: 20px;
+  top: 0px;
+}
+
+.orejaizquierda {
+  position: absolute;
+  background-color: #bd8671;
+  height: 70px;
+  width: 30px;
+  left: -30px;
+  top: 120px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 100%
+}
+
+
+.ojoizquierdo {
+  position: relative;
+  background-color: #322721;
+  height: 20px;
+  width: 30px;
+  top: -25px;
+  left: 65px;
+  border-radius: 50%
+}
+
+.ojoderecho {
+  position: relative;
+  background-color: #322721;
+  height: 20px;
+  width: 30px;
+  top: -45px;
+  left: 195px;
+  border-radius: 50%
+}
