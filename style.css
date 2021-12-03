@@ -8,6 +8,10 @@
   background-color: white;
 }
 
+.jugador {
+  position: relative;
+}
+
 .cabeza {
   position: relative;
   margin: 0 auto;
@@ -18,6 +22,9 @@
   border-radius: 20%;
 }
 
+.pelo {
+  position: relative;
+}
 
 .peloizquierda {
   position: relative;
@@ -54,11 +61,22 @@
   width: 30px;
   left: -30px;
   top: 120px;
-  border-top-left-radius: 40%;
-  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 60%;
   border-bottom-left-radius: 100%
 }
 
+.orejaderecha {
+  position: absolute;
+  background-color: #bd8671;
+  height: 70px;
+  width: 30px;
+  left: 300px;
+  top: 120px;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 100%;
+}
 
 .ojoizquierdo {
   position: relative;
@@ -67,7 +85,7 @@
   width: 30px;
   top: -25px;
   left: 65px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .ojoderecho {
@@ -79,3 +97,265 @@
   left: 195px;
   border-radius: 50%
 }
+
+.nariz {
+  position: absolute;
+  background-color: #ae7059;
+  height: 30px;
+  width: 50px;
+  top: 170px;
+  left: 125px;
+  border-radius: 100%;
+}
+
+.boca {
+  position: relative;
+  background-color: #a9574b;
+  height: 15px;
+  width: 60px;
+  margin: 0 auto;
+  top: 40px;
+}
+
+.cuello {
+  position: relative;
+  background-color: #bd8671;
+  height: 50px;
+  width: 100px;
+  top: 95px;
+  margin: 0 auto;
+}
+
+
+.camiseta1 {
+  position: relative;
+  background-color: #0248a7;
+  height: 450px;
+  width: 350px;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.barrablanca {
+  position: relative;
+  background-color: #efeee9;
+  height: 450px;
+  width: 70px;
+  left: 50px;
+}
+
+.barrablanca1 {
+  position: relative;
+  background-color: #efeee9;
+  height: 450px;
+  width: 70px;
+  top: -450px;
+  left: 230px;
+  z-index: 1;
+}
+
+.escudo {
+  position: absolute;
+  width: 45px;
+  height: 60px;
+  top: 60px;
+  left: 245px;
+  z-index: 2;
+}
+
+.mangaizquierda {
+  position: absolute;
+  background-color: #efeee9;
+  height: 65px;
+  width: 80px;
+  top: 0px;
+  left: -80px;
+  border-top-left-radius: 50%;
+}
+
+.mangaderecha {
+  position: absolute;
+  background-color: #efeee9;
+  height: 65px;
+  width: 80px;
+  top: 0px;
+  left: 350px;
+  border-top-right-radius: 50%;
+}
+
+.brazoizquierdo {
+  position: absolute;
+  background-color: #bd8671;
+  height: 300px;
+  width: 60px;
+  top: 65px;
+  left: -70px;
+}
+
+.brazoderecho {
+  position: absolute;
+  background-color: #bd8671;
+  height: 300px;
+  width: 60px;
+  top: 65px;
+  left: 360px;
+}
+
+.kelme {
+  position: absolute;
+  width: 40px;
+  height: 45px;
+  top: 70px;
+  left: 65px;
+}
+
+.rivieramaya {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  top: 35px;
+  left: -125px;
+  z-index: 2;
+}
+
+.circulologo {
+  position: absolute;
+  background-color: #efeee9;
+  width: 120px;
+  height: 130px;
+  top: 140px;
+  left: 115px;
+  border-radius: 30%;
+  z-index: 1
+}
+
+.manoizquierda {
+  position: absolute;
+  background-color: #bd8671;
+  height: 50px;
+  width: 75px;
+  top: 350px;
+  left: -79px;
+  border-radius: 40%;
+}
+
+.linea1 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 34px;
+  left: 20px;
+}
+
+.linea2 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 35px;
+  left: 30px;
+}
+
+.linea3 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 35px;
+  left: 40px;
+}
+
+.linea4 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 34px;
+  left: 50px;
+}
+
+.manoderecha {
+  position: absolute;
+  background-color: #bd8671;
+  height: 50px;
+  width: 75px;
+  top: 350px;
+  left: 353px;
+  border-radius: 40%;
+}
+
+.linea5 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 34px;
+  left: 20px;
+}
+
+.linea6 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 35px;
+  left: 30px;
+}
+
+.linea7 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 35px;
+  left: 40px;
+}
+
+.linea8 {
+  position: absolute;
+  background-color: #794c3c;
+  height: 15px;
+  width: 2px;
+  top: 34px;
+  left: 50px;
+}
+
+
+.pantalon1 {
+  position: relative;
+  background-color: #26222e;
+  height: 150px;
+  width: 350px;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.pantalonizquierda1 {
+  position: relative;
+  background-color: #26222e;
+  height: 100px;
+  width: 150px;
+  top: 150px;
+}
+
+.pantalonderecha1 {
+  position: relative;
+  background-color: #26222e;
+  height: 100px;
+  width: 150px;
+  top: 50px;
+  left: 200px;
+}
+
+
+
+
+
+
+/* Colores */
+
+  /* Piel  #bd8671 */
+  /* Azul  #0248a7 */
+  /* Blanco  #cfccc5 // #f2f1ed // #efeee9 */
+  /* Negro pantalón #26222e */
