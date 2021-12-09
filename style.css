@@ -211,10 +211,10 @@
 
 .rivieramaya {
   position: absolute;
-  width: 600px;
+  width: 650px;
   height: 400px;
   top: 35px;
-  left: -125px;
+  left: -150px;
   z-index: 2;
 }
 
@@ -346,6 +346,30 @@
   width: 150px;
   top: 50px;
   left: 200px;
+}
+
+.tirapantalonazul {
+  position: absolute;
+  background-color: #0248a7;
+  height: 8px;
+  width: 80px;
+  top: 242px;
+}
+
+.tirapantalonblanca {
+  position: absolute;
+  background-color: #efeee9;
+  height: 8px;
+  width: 80px;
+  top: 234px;
+}
+
+.tirapantalonazul1 {
+  position: absolute;
+  background-color: #0248a7;
+  height: 8px;
+  width: 80px;
+  top: 226px;
 }
 
 
