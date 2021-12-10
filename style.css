@@ -372,8 +372,116 @@
   top: 226px;
 }
 
+.tirapantalon {
+  position: absolute;
+  top: -150px;
+  left: 70px;
+}
+
+.kelmeblanco {
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  top: 27px;
+  left: 105px;
+}
+
+.tirapantalon1 {
+  position: absolute;
+  top: -150px;
+}
+
+.escudopantalon {
+  position: absolute;
+  width: 37px;
+  height: 53px;
+  top: 15px;
+  left: 10px;
+}
+
+.piernaizquierda {
+  position: relative;
+  background-color: #bd8671;
+  width: 100px;
+  height: 80px;
+  top: 100px;
+  left: 25px;
+}
+
+.piernaderecha {
+  position: relative;
+  background-color: #bd8671;
+  width: 100px;
+  height: 80px;
+  top: 100px;
+  left: 25px;
+}
 
 
+.calcetinizquierdo {
+  position: relative;
+  background-color: #26222e;
+  width: 100px;
+  height: 200px;
+  top: 100px;
+  left: 25px
+}
+
+.kelmecalcetin {
+  position: absolute;
+  width: 35px;
+  height: 45px;
+  top: 50px;
+  left: 30px;
+}
+
+.tiracalcetin {
+  position: relative;
+  background-color: #0248a7;
+  width: 100px;
+  height: 8px;
+  top: 120px;
+}
+
+.tiracalcetin1 {
+  position: relative;
+  background-color: #efeee9;
+  width: 100px;
+  height: 8px;
+  top: 120px;
+}
+
+.kelmecalcetin1 {
+  position: absolute;
+  width: 35px;
+  height: 45px;
+  top: 50px;
+  left: 35px;
+}
+
+.botaizquierda {
+  position: relative;
+  background-color: #f9707b;
+  width: 150px;
+  height: 60px;
+  top: 100px;
+  left: -25px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 50px;
+}
+
+.botaderecha {
+  position: relative;
+  background-color: #f9707b;
+  width: 150px;
+  height: 60px;
+  top: 100px;
+  left: 25px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 50px;
+}
 
 
 
