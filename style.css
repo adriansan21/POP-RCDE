@@ -469,6 +469,7 @@
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 50px;
+  animation: color 10s linear 0s infinite alternate;
 }
 
 .botaderecha {
@@ -481,6 +482,15 @@
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 50px;
+  animation: color 10s linear 0s infinite alternate;
+}
+
+@keyframes color {
+    0% {background-color: #f9707b}
+    25% {background-color: #1ee642}
+    50% {background-color: #135ecf}
+    75% {background-color: #e3179b}
+    100% {background-color: #d4cd0d}
 }
 
 
